@@ -1,0 +1,139 @@
+body {
+    background: #262626;
+}
+@font-face {
+    font-family: "cruss";
+    src: url(font/Crushed.ttf);
+}
+h1{
+    font-family: "cruss";
+    padding: 15px;
+    border: #ffffff dashed 3px;
+    border-radius: 5% ;
+}
+.container h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.container {
+    padding: 5%;
+}
+.rezo {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    perspective: 500px;
+
+}
+.rezo-img {
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    transition: all.5s ease;
+}
+.fb {
+    background-image :url(img/facebooklo_3VnvEDHU.gif);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.whap {
+    background-image: url(img/whatapps.gif);
+    /*-webkit-background-size: cover;*/
+    background-size: cover;
+    background-position: center center;
+}
+.youtb {
+    background-image: url(img/Youtube_GIF.0.gif);
+    /*-webkit-background-size: cover;*/
+    background-size: cover;
+    background-position: center center;
+}
+.insta{
+    background-image: url(img/INSTAGRAM2.gif);
+    /*-webkit-background-size: cover;*/
+    background-size: cover;
+    background-position: center center;
+}
+.tik{
+    background-image: url(img/tiktok-gif.gif);
+    /*-webkit-background-size: cover;*/
+    background-size: cover;
+    background-position: center center;
+}
+.pint{
+    background-image: url(img/pint.gif);
+    /*-webkit-background-size: cover;*/
+    background-size: cover;
+    background-position: center center;
+}
+.twitter{
+    background-image: url(img/twitter.gif);
+    /*-webkit-background-size: cover;*/
+    background-size: cover;
+    background-position: center center;
+}
+.snap{
+    background-image: url(img/snap.gif);
+    /*-webkit-background-size: cover;*/
+    background-size: cover;
+    background-position: center center;
+}
+.skype{
+    background-image: url(img/skype.gif);
+    /*-webkit-background-size: cover;*/
+    background-size: cover;
+    background-position: center center;
+}
+.daily {
+    background-image: url(img/dailymotion_icons.gif);
+    /*-webkit-background-size: cover;*/
+    background-size: cover;
+    background-position: center center;
+}
+.linke {
+    background-image: url(img/linkedin-logo-gif-funny-man-suitcase.gif);
+    /*-webkit-background-size: cover;*/
+    background-size: cover;
+    background-position: center center;
+}
+.tele{
+    background-image: url(img/telegram1.gif);
+    /*-webkit-background-size: cover;*/
+    background-size: cover;
+    background-position: center center;
+}
+.rezo-text {
+    color: #000000;
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    padding: 20px;
+    text-align: center;
+    transition: all.8s ease;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    background-image: url(img/carte\ mere\ portrait\ 5.jpg);
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: translateY(110px) rotateX(-90deg);
+}
+.img-aera {
+    position: relative;
+    top:80px;
+    transform: translateY(-110px) rotateX(90deg);
+}
+.rezo:hover .rezo-img {
+    opacity: 0;
+    transform: translateY(-110px) rotateX(90deg);
+}
+.rezo:hover .rezo-text {
+    opacity: 1;
+    transform: rotate(0);
+}
